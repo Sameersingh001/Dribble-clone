@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: rgb(255, 245, 245);
+    background-image: url(https://cdn.dribbble.com/users/5773521/screenshots/14046145/media/f1cd4d49a2809db77b3d81f7c62887ad.gif);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-position: 0px;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    position: center;
+    font-family: sans-serif;
+    color: rgb(44, 178, 255);
+}
+.container{
+    
+    display:flex ;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 3px solid  skyblue;
+    border-radius: 5px;
+    background-color: transparent;
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+    
+}
+
+
+input{
+  margin: 5px; 
+  padding: 7px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(44, 178, 255);
+
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+
+    text-decoration: none;
+
+    padding: 6px;
+    margin: 5px;
+    background-color:  rgb(44, 178, 255);
+    border: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#login:hover{
+    background-color: rgb(11, 191, 204);
+}
+
+.b1{
+    
+    padding:5px;
+    align-items: center;
+
+}
+
+#google{
+    color: rgb(240, 39, 39);
+    padding: 4px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#google:hover{
+    color: white;
+    background-color: rgb(243, 52, 52);
+}
+
+#facebook{
+    color: rgb(1, 136, 247);
+    padding: 4px;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#facebook:hover{
+    color: white;
+    background-color:rgb(1, 136, 247) ;
+}
+
+
+
+ 
